@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 65px;
+  
+    &-top {
+      flex-direction: column;
+      align-items: center;
+      height: 610px;
+      justify-content: space-around;
+  
+      &-h4 {
+        margin-top: 19px;
+      }
+    }
+  
+    &-middle {
+      flex-direction: column;
+      align-items: center;
+      height: 600px;
+      justify-content: space-around;
+  
+    }
+  }

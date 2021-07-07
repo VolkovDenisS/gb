@@ -1,0 +1,39 @@
+//Variables
+$border-color_A4: #A4A4A4;
+$black-color: #222222;
+$white-color: #FFFFFF;
+$pink-color: #EF5B70;
+$pink-light-color: #F16D7F;
+
+// Main PC Styles
+@import "../styles/main/main", 
+"../styles/main/footer", 
+"../styles/main/header", 
+"../styles/main/index", 
+"../styles/main/catalog", 
+"../styles/main/product", 
+"../styles/main/cart", 
+"../styles/main/reg";
+
+// Media Tablet Styles
+@media (max-width: 1139px) {
+    @import "../styles/media/tablet/main", 
+    "../styles/media/tablet/footer",
+    "../styles/media/tablet/index", 
+    "../styles/media/tablet/catalog", 
+    "../styles/media/tablet/product", 
+    "../styles/media/tablet/cart", 
+    "../styles/media/tablet/reg";
+}
+
+// Media Phone Styles
+@media (max-width: 741px) {
+    @import "../styles/media/phone/main", 
+    "../styles/media/phone/footer", 
+    "../styles/media/phone/header", 
+    "../styles/media/phone/index", 
+    "../styles/media/phone/catalog", 
+    "../styles/media/phone/product", 
+    "../styles/media/phone/cart", 
+    "../styles/media/phone/reg";
+}

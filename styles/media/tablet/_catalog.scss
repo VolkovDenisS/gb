@@ -1,0 +1,33 @@
+//Tablet
+@media (max-width: 1139px) {
+  .title {
+    &-content {
+      height: 148px;
+      align-items: center;
+    }
+  }
+
+  .filter {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    &-left {
+      position: initial;
+    }
+
+    &-detail {
+      margin-left: 0;
+      width: auto;
+    }
+  }
+
+  .card-items {
+    margin-top: 40px;
+    gap: 16px;
+  }
+
+  .paginator {
+    margin-top: 40px;
+  }
+}

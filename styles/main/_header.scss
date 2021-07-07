@@ -1,0 +1,17 @@
+.header {
+    background-color: $black-color;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  
+    &_search  {
+      margin-left: 41px;
+    }
+  
+    &_people {
+      margin-left: 34px;
+      margin-right: 34px;
+    }
+  }
